@@ -35,12 +35,12 @@ const Home: React.FC<HomeProps> = ({ setSearchTerm }) => {
                     placeholder="Busque por nome, código ou modelo..." 
                     value={localSearch}
                     onChange={(e) => setLocalSearch(e.target.value)}
-                    className="w-full bg-white border-2 border-gray-100 text-gray-700 text-lg rounded-full py-4 pl-14 pr-32 shadow-lg shadow-gray-200/50 focus:outline-none focus:border-prado-gold focus:ring-4 focus:ring-prado-gold/10 transition-all placeholder-gray-400"
+                    className="w-full bg-white border-2 border-gray-100 text-gray-700 text-sm md:text-lg rounded-full py-4 pl-14 pr-32 shadow-lg shadow-gray-200/50 focus:outline-none focus:border-prado-gold focus:ring-4 focus:ring-prado-gold/10 transition-all placeholder-gray-400"
                 />
                 <Search className="absolute left-5 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-prado-gold transition-colors" size={24} />
                 <button 
                     type="submit"
-                    className="absolute right-2 top-2 bottom-2 bg-prado-navy hover:bg-prado-dark text-white rounded-full px-8 font-bold transition-transform hover:scale-105 active:scale-95 shadow-md"
+                    className="absolute right-2 top-2 bottom-2 bg-prado-navy hover:bg-prado-dark text-white rounded-full px-7 font-bold transition-transform hover:scale-105 active:scale-95 shadow-md"
                 >
                     Buscar
                 </button>
